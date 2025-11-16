@@ -114,16 +114,18 @@ fn select_pair(words: &WordLists, rng: &mut TinyRng) -> NamePair {
 }
 
 fn push_title_case(word: &str, buf: &mut String) {
-    let mut chars = word.chars();
-    if let Some(first) = chars.next() {
-        for ch in first.to_uppercase() {
-            buf.push(ch);
-        }
-        for c in chars {
-            for lower in c.to_lowercase() {
+    let mut capitalize_next = true;
+    for ch in word.chars() {
+        if capitalize_next {
+            for upper in ch.to_uppercase() {
+                buf.push(upper);
+            }
+        } else {
+            for lower in ch.to_lowercase() {
                 buf.push(lower);
             }
         }
+        capitalize_next = matches!(ch, '-' | ' ' | '_');
     }
 }
 
