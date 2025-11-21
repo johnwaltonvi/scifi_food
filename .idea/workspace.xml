@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02b84d65-31c4-4534-b34b-5d159ef3f510" name="Changes" comment="Adjectives.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763263496050</updated>
-      <workItem from="1763263497102" duration="2704000" />
+      <workItem from="1763263497102" duration="3578000" />
+      <workItem from="1763322231511" duration="30000" />
+      <workItem from="1763325005470" duration="1231000" />
+      <workItem from="1763380297651" duration="649000" />
+      <workItem from="1763494076584" duration="633000" />
+      <workItem from="1763572060145" duration="2260000" />
+      <workItem from="1763577743818" duration="5304000" />
+      <workItem from="1763754974666" duration="1596000" />
     </task>
     <task id="LOCAL-00001" summary="Added colors.">
       <option name="closed" value="true" />
@@ -159,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763265982788</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adjectives.">
+      <option name="closed" value="true" />
+      <created>1763267069316</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763267069316</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
